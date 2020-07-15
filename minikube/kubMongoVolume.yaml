@@ -11,5 +11,5 @@ spec:
   capacity:
     storage: 1Gi
   hostPath:
-    path: /data/mongo1
+    path: /home/cloudeval2020/data/mongo1
     type: DirectoryOrCreate

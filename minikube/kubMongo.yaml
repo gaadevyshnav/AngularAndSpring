@@ -16,12 +16,12 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: mongo:3.6.6
+        image: gcr.io/cloud-eval-283323/mongo:3.6.6
         ports:
         - containerPort: 27017              	
         volumeMounts:
         - name: hostvol
-          mountPath: /data/db
+          mountPath: /home/cloudeval2020/data/db
       volumes:
       - name: hostvol
         persistentVolumeClaim:

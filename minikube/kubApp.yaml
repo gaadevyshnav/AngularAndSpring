@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: angularandspring
-        image: angular2guy/angularandspring:latest 
+        image: gcr.io/cloud-eval-283323/angularandspring  
         imagePullPolicy: Always
         env:
         - name: MONGODB_HOST
