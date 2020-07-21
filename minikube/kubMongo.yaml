@@ -21,7 +21,7 @@ spec:
         - containerPort: 27017              	
         volumeMounts:
         - name: hostvol
-          mountPath: /home/cloudeval2020/data/db
+          mountPath: /home/extrgcpeval/AngularAndSpring/minikube/data/mongo1
       volumes:
       - name: hostvol
         persistentVolumeClaim:
